@@ -5,12 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+import AbstractComponents.Abstract;
+
+public class LoginPage extends Abstract{
 	
 	WebDriver driver;
 	
 	public LoginPage(WebDriver driver) {
-		
+		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
@@ -38,10 +40,12 @@ public class LoginPage {
 	public void loginFunction(String Uname,String Pword) {
 		Username.sendKeys(Uname);
 		password.sendKeys(Pword);
-		logButton.click();
+		logButton.click();	
+		
 	}
 	
 	public String loginErrorMessage() {
+		waitForWebElement(errorM);
 		return errorM.getText();
 	}
 	
