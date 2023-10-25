@@ -24,7 +24,7 @@ public class BaseT {
 	//Initialize Web Driver
 	public WebDriver driverInitialize() throws IOException {
 		Properties prop=new Properties();
-		FileInputStream file=new FileInputStream("C:\\Users\\amila\\eclipse-workspace\\LolcApplicationNew\\src\\main\\java\\Resourses\\Resourses.properties");
+		FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Resourses\\Resourses.properties");
 		prop.load(file);
 		String browser=prop.getProperty("browser");
 		

@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-25T07:15:54 IST" name="Default suite" finished-at="2023-10-25T07:16:21 IST" duration-ms="26587">
+  <suite started-at="2023-10-25T07:49:32 IST" name="Default suite" finished-at="2023-10-25T07:49:53 IST" duration-ms="21317">
     <groups>
     </groups>
-    <test started-at="2023-10-25T07:15:54 IST" name="Default test" finished-at="2023-10-25T07:16:21 IST" duration-ms="26587">
+    <test started-at="2023-10-25T07:49:32 IST" name="Default test" finished-at="2023-10-25T07:49:53 IST" duration-ms="21317">
       <class name="TestCases.LoginTests">
-        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:15:54 IST" name="launchingApp" finished-at="2023-10-25T07:16:03 IST" duration-ms="8330" status="PASS">
+        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:32 IST" name="launchingApp" finished-at="2023-10-25T07:49:39 IST" duration-ms="6854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingApp -->
-        <test-method signature="validLogin()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:03 IST" name="validLogin" finished-at="2023-10-25T07:16:03 IST" duration-ms="472" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:39 IST" name="validLogin" finished-at="2023-10-25T07:49:39 IST" duration-ms="450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:03 IST" name="closeBrowser" finished-at="2023-10-25T07:16:04 IST" duration-ms="478" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:39 IST" name="closeBrowser" finished-at="2023-10-25T07:49:39 IST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:04 IST" name="launchingApp" finished-at="2023-10-25T07:16:09 IST" duration-ms="5850" status="PASS">
+        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:39 IST" name="launchingApp" finished-at="2023-10-25T07:49:42 IST" duration-ms="3013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingApp -->
-        <test-method signature="invalidLogin()[pri:1, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:09 IST" name="invalidLogin" finished-at="2023-10-25T07:16:10 IST" duration-ms="383" status="PASS">
+        <test-method signature="invalidLogin()[pri:1, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:42 IST" name="invalidLogin" finished-at="2023-10-25T07:49:43 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:10 IST" name="closeBrowser" finished-at="2023-10-25T07:16:10 IST" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:43 IST" name="closeBrowser" finished-at="2023-10-25T07:49:43 IST" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:10 IST" name="launchingApp" finished-at="2023-10-25T07:16:13 IST" duration-ms="3468" status="PASS">
+        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:43 IST" name="launchingApp" finished-at="2023-10-25T07:49:46 IST" duration-ms="2862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingApp -->
-        <test-method signature="emptyFields()[pri:2, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:13 IST" name="emptyFields" finished-at="2023-10-25T07:16:14 IST" duration-ms="336" status="PASS">
+        <test-method signature="emptyFields()[pri:2, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:46 IST" name="emptyFields" finished-at="2023-10-25T07:49:46 IST" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyFields -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:14 IST" name="closeBrowser" finished-at="2023-10-25T07:16:14 IST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:46 IST" name="closeBrowser" finished-at="2023-10-25T07:49:46 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:14 IST" name="launchingApp" finished-at="2023-10-25T07:16:17 IST" duration-ms="2929" status="PASS">
+        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:46 IST" name="launchingApp" finished-at="2023-10-25T07:49:49 IST" duration-ms="2930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingApp -->
-        <test-method signature="emptyUserName()[pri:3, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:17 IST" name="emptyUserName" finished-at="2023-10-25T07:16:17 IST" duration-ms="347" status="PASS">
+        <test-method signature="emptyUserName()[pri:3, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:49 IST" name="emptyUserName" finished-at="2023-10-25T07:49:50 IST" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyUserName -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:17 IST" name="closeBrowser" finished-at="2023-10-25T07:16:17 IST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:50 IST" name="closeBrowser" finished-at="2023-10-25T07:49:50 IST" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:17 IST" name="launchingApp" finished-at="2023-10-25T07:16:20 IST" duration-ms="2867" status="PASS">
+        <test-method is-config="true" signature="launchingApp()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:50 IST" name="launchingApp" finished-at="2023-10-25T07:49:53 IST" duration-ms="3021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingApp -->
-        <test-method signature="emptPassWord()[pri:4, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:20 IST" name="emptPassWord" finished-at="2023-10-25T07:16:21 IST" duration-ms="553" status="PASS">
+        <test-method signature="emptPassWord()[pri:4, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:53 IST" name="emptPassWord" finished-at="2023-10-25T07:49:53 IST" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptPassWord -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:16:21 IST" name="closeBrowser" finished-at="2023-10-25T07:16:21 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.LoginTests@55141def]" started-at="2023-10-25T07:49:53 IST" name="closeBrowser" finished-at="2023-10-25T07:49:53 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

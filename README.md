@@ -8,7 +8,7 @@ we would not need to start from scratch,
 
 
 ### Prerequisites:
-Java jdk-1.8 or higher
+Java jdk-1.8 or higher               
 Apache Maven 4 or higher
 
 
