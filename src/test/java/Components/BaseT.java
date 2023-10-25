@@ -20,6 +20,8 @@ public class BaseT {
 	public WebDriver driver;
 	public LoginPage lp;
 	
+	
+	//Initialize Web Driver
 	public WebDriver driverInitialize() throws IOException {
 		Properties prop=new Properties();
 		FileInputStream file=new FileInputStream("C:\\Users\\amila\\eclipse-workspace\\LolcApplicationNew\\src\\main\\java\\Resourses\\Resourses.properties");
@@ -42,6 +44,7 @@ public class BaseT {
 		
 		return driver;
 	}
+	
 	
 	@BeforeMethod
 	public LoginPage launchingApp() throws IOException {

@@ -31,7 +31,7 @@ public class LoginPage extends Abstract{
 	@FindBy(css=".error-message-container")
 	WebElement errorM;
 	
-	
+	//URL
 	public void goTo() {
 		driver.get("https://www.saucedemo.com/");
 	}
